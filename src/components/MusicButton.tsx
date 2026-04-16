@@ -8,7 +8,7 @@ export default function MusicButton() {
     if (!audioRef.current) {
       audioRef.current = new Audio();
       // Replace this src with your music file URL later
-      audioRef.current.src = "audio.mp3";
+      audioRef.current.src = "/audio.mp3";
       audioRef.current.loop = true;
     }
 
